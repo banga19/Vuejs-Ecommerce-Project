@@ -80,7 +80,12 @@ export default {
           "Content-Type": "application/json",
         },
       })
-        .then(() => {})
+        .then(() => {
+          sweetalert({
+            text: "category added succesfuly",
+            icon: "success",
+          });
+        })
         .catch((err) => {
           console.log(err);
         });
