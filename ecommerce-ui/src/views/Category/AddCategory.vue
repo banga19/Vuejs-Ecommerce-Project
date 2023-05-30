@@ -8,25 +8,25 @@
         <form>
           <!--Header for form starts below-->
           <div class="row">
-            <div class="text-center">
-              <h3>Add Category</h3>
+            <div class="col-12 text-center">
+              <h3 class="pt-2">Add Category</h3>
             </div>
           </div>
 
           <div class="form-group">
-            <label for="">Category Name</label>
+            <label for="">Name</label>
             <input type="text" class="form-control" />
             <!--input form form for category name-->
           </div>
 
           <div class="form-group">
-            <label for="">Category Description</label>
+            <label for=""> Description</label>
             <input type="text" class="form-control" />
             <!--input form form for category Description-->
           </div>
 
           <div class="form-group">
-            <label for="">Category Image</label>
+            <label for=""> Image</label>
             <input type="text" class="form-control" />
             <!--input form form for category image-->
           </div>
