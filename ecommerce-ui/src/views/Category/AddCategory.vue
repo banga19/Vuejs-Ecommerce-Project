@@ -21,7 +21,7 @@
 
           <div class="form-group">
             <label for=""> Description</label>
-            <input type="text" class="form-control" />
+            <textarea type="text" class="form-control" />
             <!--input form form for category Description-->
           </div>
 
