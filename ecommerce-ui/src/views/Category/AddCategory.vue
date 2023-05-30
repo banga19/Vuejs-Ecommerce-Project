@@ -15,22 +15,23 @@
 
           <div class="form-group">
             <label for="">Name</label>
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" v-model="categoryName" />
             <!--input form form for category name-->
           </div>
 
           <div class="form-group">
             <label for=""> Description</label>
-            <textarea type="text" class="form-control" />
+            <textarea type="text" class="form-control" v-model="description" />
             <!--input form form for category Description-->
           </div>
 
           <div class="form-group">
             <label for=""> Image</label>
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" v-model="imgUrl" />
             <!--input form form for category image-->
           </div>
 
+          <!--submit button-->
           <button type="submit" class="btn btn-primary btn-lg">Submit</button>
         </form>
       </div>
