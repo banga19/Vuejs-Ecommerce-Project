@@ -15,6 +15,20 @@
           <input type="text" class="form-control" />
           <!--input form form for category name-->
         </div>
+
+        <div class="form-group">
+          <label for="">Category Description</label>
+          <input type="text" class="form-control" />
+          <!--input form form for category Description-->
+        </div>
+
+        <div class="form-group">
+          <label for="">Category Image</label>
+          <input type="text" class="form-control" />
+          <!--input form form for category image-->
+        </div>
+
+        <button type="submit"></button>
       </form>
     </div>
   </div>
