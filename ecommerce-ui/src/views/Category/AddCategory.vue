@@ -82,7 +82,7 @@ export default {
       })
         .then(() => {
           sweetalert({
-            text: "category added succesfuly",
+            text: "Category added succesfuly",
             icon: "success",
           });
         })
