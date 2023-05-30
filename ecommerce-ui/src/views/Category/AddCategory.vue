@@ -66,6 +66,23 @@ export default {
         description: this.description,
         imgUrl: this.imgUrl,
       };
+
+      const baseURL =
+        "https://limitless-lake-55070.herokuapp.com/swagger-ui.html#/category-controller/createCategoryUsingPOST";
+
+      /* using axios to fetch data from ecommerce API and POST reposnse */
+      axios({
+        method: "post",
+        url: `${baseURL}/category/create`,
+        data: JSON.stringify(newCategory),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then(() => {})
+        .catch((err) => {
+          console.log(err);
+        });
     },
   },
 };
