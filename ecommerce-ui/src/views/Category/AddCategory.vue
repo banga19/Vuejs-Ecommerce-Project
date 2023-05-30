@@ -47,7 +47,8 @@
 </template>
 
 <script>
-// const axios = require("axios");
+const axios = require("axios");
+const sweetalert = require("sweetalert");
 
 export default {
   data() {
@@ -70,7 +71,7 @@ export default {
       const baseURL =
         "https://limitless-lake-55070.herokuapp.com/swagger-ui.html#/category-controller/createCategoryUsingPOST";
 
-      /* using axios to fetch data from ecommerce API and POST reposnse */
+      /* using axios to fetch data from ecommerce API lamed 'limitless lake'and POST reposnse */
       axios({
         method: "post",
         url: `${baseURL}/category/create`,
