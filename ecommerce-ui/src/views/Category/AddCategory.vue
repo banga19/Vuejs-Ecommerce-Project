@@ -41,7 +41,13 @@
 
 <script>
 export default {
-  setup() {},
+  data() {
+    return {
+      categoryName: "",
+      description: "",
+      imgUrl: "",
+    };
+  },
 };
 </script>
 
