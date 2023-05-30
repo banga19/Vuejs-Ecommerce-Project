@@ -31,7 +31,7 @@
             <!--input form form for category image-->
           </div>
 
-          <button type="submit"></button>
+          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
         </form>
       </div>
       <div class="col-3"></div>
