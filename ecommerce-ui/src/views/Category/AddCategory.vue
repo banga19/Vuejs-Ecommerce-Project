@@ -1,5 +1,7 @@
 <template>
-  <div>Add Category</div>
+  <div class="AddCategory">
+    <p>Add Category</p>
+  </div>
 </template>
 
 <script>
