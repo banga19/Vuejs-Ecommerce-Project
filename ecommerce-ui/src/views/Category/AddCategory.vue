@@ -1,35 +1,40 @@
 <template>
   <div class="container">
-    <!--Header for form starts below-->
-    <div class="row">
-      <div class="text-center">
-        <h3>Add Category</h3>
-      </div>
-    </div>
-
     <!--Start of form-->
     <div class="row">
-      <form>
-        <div class="form-group">
-          <label for="">Category Name</label>
-          <input type="text" class="form-control" />
-          <!--input form form for category name-->
-        </div>
+      <!--Center the form-->
+      <div class="col-3"></div>
+      <div class="col-6">
+        <form>
+          <!--Header for form starts below-->
+          <div class="row">
+            <div class="text-center">
+              <h3>Add Category</h3>
+            </div>
+          </div>
 
-        <div class="form-group">
-          <label for="">Category Description</label>
-          <input type="text" class="form-control" />
-          <!--input form form for category Description-->
-        </div>
+          <div class="form-group">
+            <label for="">Category Name</label>
+            <input type="text" class="form-control" />
+            <!--input form form for category name-->
+          </div>
 
-        <div class="form-group">
-          <label for="">Category Image</label>
-          <input type="text" class="form-control" />
-          <!--input form form for category image-->
-        </div>
+          <div class="form-group">
+            <label for="">Category Description</label>
+            <input type="text" class="form-control" />
+            <!--input form form for category Description-->
+          </div>
 
-        <button type="submit"></button>
-      </form>
+          <div class="form-group">
+            <label for="">Category Image</label>
+            <input type="text" class="form-control" />
+            <!--input form form for category image-->
+          </div>
+
+          <button type="submit"></button>
+        </form>
+      </div>
+      <div class="col-3"></div>
     </div>
   </div>
 </template>
