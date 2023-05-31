@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <!--Start of form-->
     <div class="row">
       <div class="col-12 text-center">
-        <h3 class="pt-2">Our Categories</h3>
+        <h3 class="pt-3">Our Categories</h3>
       </div>
+      <div class="row"></div>
     </div>
   </div>
 </template>
