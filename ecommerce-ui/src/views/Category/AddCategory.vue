@@ -51,6 +51,7 @@ const axios = require("axios");
 const sweetalert = require("sweetalert");
 
 export default {
+  /*constructor*/
   data() {
     return {
       categoryName: "",
