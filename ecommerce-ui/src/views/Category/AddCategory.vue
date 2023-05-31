@@ -69,9 +69,7 @@ export default {
         imgUrl: this.imgUrl,
       };
 
-      const baseURL =
-        "https://limitless-lake-55070.herokuapp.com/swagger-ui.html#/category-controller/createCategoryUsingPOST";
-
+      const baseURL = "https://limitless-lake-55070.herokuapp.com";
       /* using axios to fetch data from ecommerce API lamed 'limitless lake'and POST reposnse */
       axios({
         method: "post",
