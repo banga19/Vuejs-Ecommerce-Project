@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 text-center">
         <h3 class="pt-3">Our Categories</h3>
-        <div>{{ Categories }}</div>
+        <div>{{ ListCategories }}</div>
       </div>
       <div class="row"></div>
     </div>
@@ -12,11 +12,11 @@
 
 <script>
 var axios = require("axios");
-import CategoryBox from "../../components/Category/CategoryBox.vue";
+//import CategoryBox from "../../components/Category/CategoryBox.vue";
 
 export default {
   name: "ListCategories",
-  components: { CategoryBox },
+  components: {},
   data() {
     return {
       baseURL: "https://limitless-lake-55070.herokuapp.com/",
